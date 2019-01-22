@@ -2,86 +2,85 @@
   {
     "id": 1,
     "name": "Scream",
-    "image": "./public/images/scream.jpg",
+    "image": "./images/scream.jpg",
     "imdb": "7.2",
     "genre": "Horror, Mystery"
   },
   {
     "id": 2,
-    "name": "Mr. Krabs",
-    "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
-    "occupation": "Restaurant Owner",
-    "location": "A Giant Anchor"
+    "name": "Alien",
+    "image": "./images/alien.jpg",
+    "imdb": "8.5",
+    "genre": "Horror, Sci-Fi"
   },
   {
     "id": 3,
-    "name": "Squidward",
-    "image":
-      "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
-    "occupation": "Cashier",
-    "location": "An Easter Island Head"
+    "name": "Interstellar",
+    "image": "./images/interstellar.jpg",
+    "imdb": "8.6",
+    "genre": "Adventure, Drama, Sci-Fi"
   },
   {
     "id": 4,
-    "name": "Mr. Krabs",
-    "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
-    "occupation": "Restaurant Owner",
-    "location": "A Giant Anchor"
+    "name": "The Marix",
+    "image": "./images/matrix.jpg",
+    "imdb": "8.7",
+    "genre": "Action, Sci-Fi"
   },
   {
     "id": 5,
-    "name": "Mr. Krabs",
-    "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
-    "occupation": "Restaurant Owner",
-    "location": "A Giant Anchor"
+    "name": "Melancholia",
+    "image": "./images/melancholia.jpg",
+    "imdb": "7.1",
+    "genre": "Drama, Sci-Fi"
   },
   {
     "id": 6,
-    "name": "Mr. Krabs",
-    "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
-    "occupation": "Restaurant Owner",
-    "location": "A Giant Anchor"
+    "name": "Mortal Kombat",
+    "image": "./images/mortal.jpg",
+    "imdb": "5.8",
+    "genre": "Action, Adventure, Fantasy"
   },
   {
     "id": 7,
-    "name": "Mr. Krabs",
-    "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
-    "occupation": "Restaurant Owner",
-    "location": "A Giant Anchor"
+    "name": "Ocean's Eleven",
+    "image": "./images/ocean.jpg",
+    "imdb": "7.8",
+    "genre": "Crime, Thriller"
   },
   {
     "id": 8,
-    "name": "Mr. Krabs",
-    "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
-    "occupation": "Restaurant Owner",
-    "location": "A Giant Anchor"
+    "name": "The Prestige",
+    "image": "./images/prestige.jpg",
+    "imdb": "8.5",
+    "genre": "Drama, Mystery, Sci-Fi"
   },
   {
     "id": 9,
-    "name": "Scream",
-    "image": "./public/images/scream.jpg",
-    "imdb": "7.2",
-    "genre": "Horror, Mystery"
+    "name": "Se7en",
+    "image": "./images/seven.jpg",
+    "imdb": "8.6",
+    "genre": "Crime, Drama, Mystery"
   },
   {
     "id": 10,
-    "name": "Scream",
-    "image": "./public/images/scream.jpg",
-    "imdb": "7.2",
-    "genre": "Horror, Mystery"
+    "name": "The Shawshank Redemption",
+    "image": "./images/shawshank.jpg",
+    "imdb": "9.3",
+    "genre": "Drama"
   },
   {
     "id": 11,
-    "name": "Scream",
-    "image": "./public/images/scream.jpg",
+    "name": "Starship Troopers",
+    "image": "./images/starship.jpg",
     "imdb": "7.2",
-    "genre": "Horror, Mystery"
+    "genre": "Action, Adventure, Sci-Fi"
   },
   {
     "id": 12,
-    "name": "Scream",
-    "image": "./public/images/scream.jpg",
-    "imdb": "7.2",
-    "genre": "Horror, Mystery"
+    "name": "Wall-E",
+    "image": "./images/walle.jpg",
+    "imdb": "8.4",
+    "genre": "Animation, Adventure, Family"
   }
 ]
