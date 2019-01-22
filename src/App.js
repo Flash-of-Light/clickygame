@@ -20,7 +20,7 @@ function App() {
           name={friends[1].name}
           image={friends[1].image}
           imdb={friends[1].imdb}
-          location={friends[1].location}
+          genre={friends[1].genre}
         />
         <MovieCard
           name={friends[2].name}
