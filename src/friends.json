@@ -4,83 +4,95 @@
     "name": "Scream",
     "image": "./images/scream.jpg",
     "imdb": "7.2",
-    "genre": "Horror, Mystery"
+    "genre": "Horror, Mystery",
+    "picked": "false"
   },
   {
     "id": 2,
     "name": "Alien",
     "image": "./images/alien.jpg",
     "imdb": "8.5",
-    "genre": "Horror, Sci-Fi"
+    "genre": "Horror, Sci-Fi",
+    "picked": "false"
   },
   {
     "id": 3,
     "name": "Interstellar",
     "image": "./images/interstellar.jpg",
     "imdb": "8.6",
-    "genre": "Adventure, Drama, Sci-Fi"
+    "genre": "Adventure, Drama, Sci-Fi",
+    "picked": "false"
   },
   {
     "id": 4,
     "name": "The Marix",
     "image": "./images/matrix.jpg",
     "imdb": "8.7",
-    "genre": "Action, Sci-Fi"
+    "genre": "Action, Sci-Fi",
+    "picked": "false"
   },
   {
     "id": 5,
     "name": "Melancholia",
     "image": "./images/melancholia.jpg",
     "imdb": "7.1",
-    "genre": "Drama, Sci-Fi"
+    "genre": "Drama, Sci-Fi",
+    "picked": "false"
   },
   {
     "id": 6,
     "name": "Mortal Kombat",
     "image": "./images/mortal.jpg",
     "imdb": "5.8",
-    "genre": "Action, Adventure, Fantasy"
+    "genre": "Action, Adventure, Fantasy",
+    "picked": "false"
   },
   {
     "id": 7,
     "name": "Ocean's Eleven",
     "image": "./images/ocean.jpg",
     "imdb": "7.8",
-    "genre": "Crime, Thriller"
+    "genre": "Crime, Thriller",
+    "picked": "false"
   },
   {
     "id": 8,
     "name": "The Prestige",
     "image": "./images/prestige.jpg",
     "imdb": "8.5",
-    "genre": "Drama, Mystery, Sci-Fi"
+    "genre": "Drama, Mystery, Sci-Fi",
+    "picked": "false"
   },
   {
     "id": 9,
     "name": "Se7en",
     "image": "./images/seven.jpg",
     "imdb": "8.6",
-    "genre": "Crime, Drama, Mystery"
+    "genre": "Crime, Drama, Mystery",
+    "picked": "false"
   },
   {
     "id": 10,
     "name": "The Shawshank Redemption",
     "image": "./images/shawshank.jpg",
     "imdb": "9.3",
-    "genre": "Drama"
+    "genre": "Drama",
+    "picked": "false"
   },
   {
     "id": 11,
     "name": "Starship Troopers",
     "image": "./images/starship.jpg",
     "imdb": "7.2",
-    "genre": "Action, Adventure, Sci-Fi"
+    "genre": "Action, Adventure, Sci-Fi",
+    "picked": "false"
   },
   {
     "id": 12,
     "name": "Wall-E",
     "image": "./images/walle.jpg",
     "imdb": "8.4",
-    "genre": "Animation, Adventure, Family"
+    "genre": "Animation, Adventure, Family",
+    "picked": "false"
   }
 ]
