@@ -7,19 +7,6 @@ function FriendCard(props) {
       <div className="img-container">
         <img alt={props.name} src={props.image} />
       </div>
-      {/* <div className="content">
-        <ul>
-          <li>
-            <strong>Name:</strong> {props.name}
-          </li>
-          <li>
-            <strong>IMDB Score:</strong> {props.imdb}
-          </li>
-          <li>
-            <strong>Genre:</strong> {props.genre}
-          </li>
-        </ul>
-      </div> */}
     </div>
   );
 }
