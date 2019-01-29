@@ -1,55 +1,38 @@
-import React from 'react';
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem } from 'reactstrap';
+import React from "react";
 
-export default class Reactstrap extends React.Component {
-  constructor(props) {
-    super(props);
+function Navbar() {
+  return (
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <a className="navbar-brand" href="#">
+        Navbar
+      </a>
+      <button
+        className="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span className="navbar-toggler-icon" />
+      </button>
 
-    this.toggle = this.toggle.bind(this);
-    this.state = {
-      isOpen: false
-    };
-  }
-  toggle() {
-    this.setState({
-      isOpen: !this.state.isOpen
-    });
-  }
-  render() {
-    return (
-      <div>
-        <Navbar color="light" light expand="md">
-          <NavbarBrand href="/">Movie Favorites</NavbarBrand>
-          <NavbarToggler onClick={this.toggle} />
-          <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav className="ml-auto" navbar>
-              <NavItem>
-                <NavLink href="/components/">Click a movie to start</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">Score: 0</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">|</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">High Score: 0</NavLink>
-              </NavItem>
-            </Nav>
-          </Collapse>
-        </Navbar>
-      </div>
-    );
-  }
+      <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul className="navbar-nav mr-auto">
+          <li className="nav-item active">
+            <a className="nav-link" href="#">
+              Home <span className="sr-only">(current)</span>
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#">
+              Link
+            </a>
+          </li>
+          </ul>
+        </div>
+    </nav>
+  );
 }
+
+export default Navbar;
