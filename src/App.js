@@ -50,18 +50,16 @@ class App extends Component {
       <React.Fragment>
         <Navbar />
         <Wrapper>
-          <MovieCard image={friends[0].image} />
-          <MovieCard image={friends[1].image} />
-          <MovieCard image={friends[2].image} />
-          <MovieCard image={friends[3].image} />
-          <MovieCard image={friends[4].image} />
-          <MovieCard image={friends[5].image} />
-          <MovieCard image={friends[6].image} />
-          <MovieCard image={friends[7].image} />
-          <MovieCard image={friends[8].image} />
-          <MovieCard image={friends[9].image} />
-          <MovieCard image={friends[10].image} />
-          <MovieCard image={friends[11].image} />
+          {friends.map((friend, index) => {
+            return (
+              <MovieCard
+                id={index}
+                index={index}
+                selectMovie={this.selectMovie}
+                image={friend.image}
+              />
+            );
+          })}
         </Wrapper>
       </React.Fragment>
     );
