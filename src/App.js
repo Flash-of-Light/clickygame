@@ -24,8 +24,7 @@ class App extends Component {
       newFriends[index].selectedAlready = true;
       this.setState({ guess: "you guessed correctly" });
     }
-    // selected befor, thus games is over. check for top score, mark all chars
-    // as not selected and point total is reset.
+    // selected before - game over. check top score, mark all as not selected and reset point total
     else {
       if (newPoints > this.state.highScore) {
         highScoreNew = newPoints;
@@ -50,12 +49,22 @@ class App extends Component {
       <React.Fragment>
         <Navbar />
         <Wrapper>
+          Title title="Clicky" score={this.state.points} topscore=
+          {this.state.topScore} guess={this.state.guess} />
+          <div className="card header">
+            {" "}
+            <div className="cardBody">
+              {" "}
+              Click an image to earn points, but don't click on any more than once!
+            </div>
+          </div>
           {friends.map((friend, index) => {
             return (
               <MovieCard
                 id={index}
                 index={index}
                 selectMovie={this.selectMovie}
+                selectedAlready={friend.selectedAlready}
                 image={friend.image}
               />
             );
