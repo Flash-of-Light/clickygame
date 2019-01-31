@@ -49,16 +49,7 @@ class App extends Component {
       <React.Fragment>
         <Navbar />
         <Wrapper>
-          Title title="Clicky" score={this.state.points} topscore=
-          {this.state.topScore} guess={this.state.guess} />
-          <div className="card header">
-            {" "}
-            <div className="cardBody">
-              {" "}
-              Click an image to earn points, but don't click on any more than once!
-            </div>
-          </div>
-          {friends.map((friend, index) => {
+        {friends.map((friend, index) => {
             return (
               <MovieCard
                 id={index}
