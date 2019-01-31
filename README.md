@@ -1,3 +1,8 @@
+## Favorite Movies
+![screenshot](https://github.com/Jay-Goss/clickygame/blob/master/public/images/screen.png)
+
+A simple react application themed with 12 of my favorite movies.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
